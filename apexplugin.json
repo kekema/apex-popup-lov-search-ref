@@ -1,7 +1,7 @@
 {
     "name" : "Popup LOV Search Reference",
     "version" : "1.0.0",
-    "description" : "Making the search value available for reference in the LOV query.",
+    "description" : "Making the search value available for reference in the LOV query, enabling 'starts with' search.",
     "keywords" : ["Popup LOV"],
     "homepage" : "https://github.com/kekema/apex-popup-lov-search-ref",
     "bugs" : {
