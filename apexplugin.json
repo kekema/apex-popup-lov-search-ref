@@ -27,8 +27,8 @@
         "plugin" : {
           "internalName" : "LIB4X.AXT.POPUPLOVSEARCHREF",
           "type" : "item",
-		  "demo" : "https://apex.oracle.com/pls/apex/r/yola/demo/popup-lov-search-ref",
-		  "previewImage" : "https://github.com/kekema/apex-popup-lov-search-ref/blob/main/lov-search.jpg?raw=true"
+	  "demo" : "https://apex.oracle.com/pls/apex/r/yola/demo/popup-lov-search-ref",
+	  "previewImage" : "https://github.com/kekema/apex-popup-lov-search-ref/blob/main/lov-search.jpg?raw=true"
         }
       }
     }
