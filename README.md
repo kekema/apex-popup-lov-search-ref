@@ -5,5 +5,4 @@ It submits the entered value to the session cache. Having this reference item av
 
 ![image](https://github.com/kekema/apex-popup-lov-search-ref/blob/main/ref-item-definition.jpg)
 
-![image](https://github.com/kekema/apex-popup-lov-search-ref/blob/main/lov-contains-search.jpg)
-![image](https://github.com/kekema/apex-popup-lov-search-ref/blob/main/lov-starts-with-search.jpg)
+![image](https://github.com/kekema/apex-popup-lov-search-ref/blob/main/lov-search.jpg)
