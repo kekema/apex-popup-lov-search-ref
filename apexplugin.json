@@ -1,0 +1,35 @@
+{
+    "name" : "Popup LOV Search Reference",
+    "version" : "1.0.0",
+    "description" : "Making the search value available for reference in the LOV query.",
+    "keywords" : ["Popup LOV"],
+    "homepage" : "https://github.com/kekema/apex-popup-lov-search-ref",
+    "bugs" : {
+      "url" : "https://github.com/kekema/apex-popup-lov-search-ref/issues",
+      "email" : "karel0008@gmail.com"
+    },
+    "license" : "MIT",
+    "commercial" : "No",
+    "author" : {
+      "name" : "Karel Ekema",
+      "email" : "karel0008@gmail.com",
+      "url" : "https://www.ekema-it.com/",
+      "twitter": "@KarelEkema"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/kekema/apex-popup-lov-search-ref"
+    },
+    "oracle" : {
+      "versions": ["19.0.0.0"],	
+      "apex" : {
+        "versions" : ["24.1"],
+        "plugin" : {
+          "internalName" : "LIB4X.AXT.POPUPLOVSEARCHREF",
+          "type" : "item",
+		  "demo" : "https://apex.oracle.com/pls/apex/r/yola/demo/popup-lov-search-ref",
+		  "previewImage" : "https://github.com/kekema/apex-popup-lov-search-ref/blob/main/lov-search.jpg?raw=true"
+        }
+      }
+    }
+}
