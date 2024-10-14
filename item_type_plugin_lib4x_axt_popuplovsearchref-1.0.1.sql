@@ -33,7 +33,7 @@ prompt APPLICATION 149 - Inspector
 -- Application Export:
 --   Application:     149
 --   Name:            Inspector
---   Date and Time:   20:26 Sunday October 13, 2024
+--   Date and Time:   06:26 Monday October 14, 2024
 --   Exported By:     DEVELOPER
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -141,14 +141,15 @@ wwv_flow_imp_shared.create_plugin(
 ,p_api_version=>2
 ,p_render_function=>'render_popup_lov_search_ref'
 ,p_meta_data_function=>'metadata_popup_lov_search_ref'
+,p_standard_attributes=>'SOURCE'
 ,p_substitute_attributes=>true
-,p_version_scn=>262853347
+,p_version_scn=>263099688
 ,p_subscribe_plugin_settings=>true
 ,p_help_text=>'Makes the entered search value in a Popup LOV available in the session state, so it can be referenced in the LOV query. By this, a Match Type of ''Starts With'' can be achieved, next to the ''Contains'' standard APEX behavior. It serves as a workaround p'
 ||'ending FR-3800 (see APEX Ideas App). The item can be added to the actual page, to a range of pages under the same item name, or to the global page and will be rendered as hidden. By it''s name, it can be referenced in the LOV query. For example: where'
-||' (upper(FULLNAME) like upper(:P0_LOV_SEARCH)||''%''). Apart from the name, no other configuration is required. The search value of the current open Popup LOV will automatically be submitted. In case multiple Popup LOV''s are used on the page, only one S'
-||'earch Reference Item is required.'
-,p_version_identifier=>'1.0.1'
+||' (upper(FULLNAME) like upper(:P0_LOV_SEARCH)||''%''). Apart from the name, one other configuration is required, namely the Session State Storage. Configure this one as ''Per Request (Memory Only)''. The search value of the current open Popup LOV will aut'
+||'omatically be submitted. In case multiple Popup LOV''s are used on the page, only one Search Reference Item is required.'
+,p_version_identifier=>'1.0.2'
 ,p_about_url=>'https://github.com/kekema/apex-popup-lov-search-ref'
 ,p_files_version=>99
 );
