@@ -7,7 +7,7 @@ The item can be added to the actual page, to a range of pages under the same ite
 
 The search reference item will only have a value in case of usage from the search bar. The LOV query is also used in other situations (like getting the display value given a return value, or as part of an IG query) - the reference item will be NULL then.
 
-The plugin has been developed under 24.1, but you should be able to use it in releases before as well. Notice for 24.1, you have the Select One and Select Many item types available (as standalone, not in IG yet), which do support 'Starts With' search and do have other improvements as well.
+The plugin has been developed under 24.1, but you should be able to use it in releases before as well. Notice for 24.1, you have the Select One and Select Many item types available (as page items, not in IG yet), which do support 'Starts With' search and do have other improvements as well.
 
 ![image](https://github.com/kekema/apex-popup-lov-search-ref/blob/main/ref-item-definition.jpg)
 
